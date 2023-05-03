@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>ISM Design</title>
+
+	<!-- FUENTES -->
+	<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Montserrat:wght@500;700&display=swap" rel="stylesheet">
+	<!-- END - FUENTES -->
+
+	<!-- ICON -->
+	<link rel="icon" type="image/x-icon" href="img/icon/ism-logo.ico">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<!-- END - ICON -->
+
+	<!-- CSS -->
+	<link rel="stylesheet" href="css/main.css">
+	<!-- END - CSS -->
+
+</head>
+<body>
+
+<!-- HEADER -->
+	<header id="cabecera">
+		<!-- LOGO -->
+		<div class="maxContainer">
+			<div class="logo">
+				<a href="#top">
+					<img src="img/logo-ism-design-referencia.svg" alt="Logo ISM Design">
+				</a>
+			</div>
+			<!-- BOTÓN -->
+			<button class="toggle"><i class="fa-solid fa-bars"></i></button>
+			<!-- NAVEGADOR -->
+			<nav class="txt-cuerpo menuContainer flexContainer" id="menu">
+				<ul class="">
+					<li><a href="disenyo-grafico.html">Diseño gráfico</a></li>
+					<li><a href="disenyo-uxui.html">Diseño UX/UI</a></li>
+					<li><a href="disenyo-web.html">Diseño web</a></li>
+					<li><a href="sobre-mi.html">Sobre mí</a></li>
+					<li><a href="contacto.html">Contacto</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+<!-- END - HEADER -->
+<!-- MAIN -->
+	<main class="p-top-6" id="top">
+		<!-- BIENVENIDA -->
+		<section class="centerContainer bg-claro" id="intro">
+			<h2 class="txt-titular">Bienvenidos</h2>
+			<p class="txt-cuerpo m-top-1">Me llamo Iván y esta va a ser mi ventana en la que enseñaré mis habilidades como diseñador.<br class="m-top-3">En este Portfolio de proyectos encontrarás desde diseño gráfico hasta diseño UX/UI, pasando por la maquetación front-end.</p>
+		</section>
+		<!-- GALERÍA -->
+		<section class="m-top-5 flexContainer centerContainer" id="galeria">
+			<div id="tituloGaleria"> 
+				<h2 class="txt-titular">Proyectos</h2>
+			</div>
+			<div class="" id="proyectos">
+				<article class="m-top-3 overlay">
+					<a href="gow.html">
+						<img src="img/img-prev_1.jpg" alt="Imagen proyecto ux-ui gow" title="Proyecto: gow app">
+						<h3>gow</h3>
+					</a>
+				</article>
+
+				<article class="m-top-3 overlay">
+					<a href="imaginin.html" onMouseOver="gifImaginin();" onMouseOut="jpgImaginin();">
+						<img src="img/imaginin.jpg" alt="Diseño de logotipo imaginin" id="imaginin" title="Proyecto: imaginin">
+						<h3 class="">Imaginin</h3>
+					</a>
+				</article>
+
+				<article class="m-top-3 overlay">
+					<a href="packaging-hanzo.html">
+						<img src="img/img-prev-3.jpg" alt="Packaging producto Hattori" title="Proyecto: Packaging Hanzo">
+						<h3 class="">Packaging Hanzo</h3>
+					</a>
+				</article>
+
+				<article class="m-top-3 overlay">
+					<a href="wave-now.html" onMouseOver="gifWaveNow();" onMouseOut="jpgWaveNow();">
+						<img src="img/wavenow-logo.jpg" alt="Stopmotion logtipo WaveNow"  id="waveNow" title="Proyecto: Wave Now">
+						<h3 class="">Stopmotion WaveNow</h3>
+					</a>
+				</article>
+
+				<article class="m-top-3 overlay">
+					<a href="analisis-heuristico.html">
+						<img src="img/img-prev-5.jpg" alt="Análisis heurístico y rediseño web" title="Proyecto: Análisis heurístico">
+						<h3 class="">Análisis heurístico</h3>
+					</a>
+				</article>
+
+				<article class="m-top-3 overlay">
+					<a href="adidas-app.html" onMouseOver="gifAdidas();" onMouseOut="jpgAdidas();">
+						<img src="img/adidas-app.jpg" alt="Speed design para una app de la marca Adidas" id="adidas" title="Proyecto: Adidas App">
+						<h3 class="">Adidas App</h3>
+					</a>
+				</article>
+		</section>
+		<!-- SOBRE MÍ -->
+		<section class="m-top-5 centerContainer" id="sobreMi-general">
+			<div class="gridContainer" id="sobreMi">
+				<div class="">
+					<h2 class="txt-titular">Sobre mí</h2>
+				</div>
+				<div class="" id="imagen-sobreMi">
+					<picture>
+						<source media="(min-width:992px)" srcset="img/sobre-mi_desktop.jpg">
+						<source media="(min-width:768px)" srcset="img/sobre-mi_tablet.jpg">
+						<img src="img/sobre-mi_mobile.jpg" alt="Imágen Iván Sarió Madrigal" title="Este soy yo">
+					</picture>
+				</div>
+				<div class="txt-cuerpo flexContainer" id="descripcion">
+					<p>Después de trabajar 2 años como diseñador gráfico, sentí la necesidad de reinventarme y formarme en diseño UX/UI y diseño web para ofrecer un perfil multidisciplinar y todoterreno. De esta manera me defino como un profesional transversal: puedo enfrentarme tanto a proyectos de imagen como a los digitales.</p>
+				</div>
+				<div class="centerContainer" id="tablas">
+					<table class="txt-cuerpo" >
+						<thead class="bg-oscuro">
+							<tr>
+								<td colspan="2">INTERESES</td>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td><img src="img/movie-icon.svg"> Cine</td>
+								<td><img src="img/videojuegos-icon.svg"> Videojuegos</td>
+							</tr>
+							<tr>
+								<td><img src="img/tecnologia-icon.svg"> Tecnología</td>
+								<td><img src="img/informatica-icon.svg"> Informática</td>
+							</tr>
+							<tr>
+								<td><img src="img/deporte-icon.svg"> Deporte</td>
+								<td><img src="img/musica-icon.svg"> Música</td>
+							</tr>
+						</tbody>
+					</table>
+					<table class="txt-cuerpo" >
+						<thead class="bg-oscuro">
+							<tr>
+								<td colspan="2">HABILIDADES PROFESIONALES</td>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Trabajo en equipo</td>
+								<td>Creatividad</td>
+							</tr>
+							<tr>
+								<td>Trabajo lógico</td>
+								<td>Comunicación</td>
+							</tr>
+							<tr>
+								<td>Adaptabilidad</td>
+								<td>Escucha activa</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</section>
+	</main>
+<!-- END - MAIN -->
+<!-- FOOTER -->
+	<footer class="m-top-5 p-top-4 bg-oscuro fullContainer">
+		<div class="txt-cuerpo-white margen-90 centerContainer" id="footerMaster">
+			<div class="" id="logo-footer">
+				<img src="img/logo-ism-design-white.svg">
+			</div>
+			<div class="" id="datos-footer">
+				<ul>
+					<li>Iván Sarió Madrigal</li>
+					<li><a href="tel:+34606659255">+34 606 65 92 55</a></li>
+					<li><a href="mailto:ivan.sario.madrigal@gmail.com">ivan.sario.madrigal@gmail.com</a></li>
+				</ul>
+			</div>
+			<div class="margen-60" id="rrss-footer">
+				<ul class="flexContainer centrado-espacio ">
+					<li><a href="https://twitter.com/ivansm95" target="blank"><img src="img/twitter-icon.svg" alt="logotipo de twitter"></a></li>
+					<li><a href="https://vimeo.com/user127143020" target="blank"><img src="img/vimeo-icon.svg" alt="logotipo de vimeo"></a></li>
+					<li><a href="https://www.instagram.com/ivan_saurio/" target="blank"><img src="img/instagram-icon.svg" alt="logotipo de instagram"></a></li>
+				</ul>
+			</div>
+		</div>
+	</footer>
+<!-- END - FOOTER -->
+<!-- JAVASCRIPT -->
+	<script src="js/main.js"></script>
+<!-- JAVASCRIPT -->
+</body>
+</html>

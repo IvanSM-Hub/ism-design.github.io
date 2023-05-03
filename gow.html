@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Proyecto: gow</title>
+
+	<!-- FUENTES -->
+	<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Montserrat:wght@500;700&display=swap" rel="stylesheet">
+	<!-- END - FUENTES -->
+
+	<!-- ICON -->
+	<link rel="icon" type="image/x-icon" href="img/icon/ism-logo.ico">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<!-- END - ICON -->
+
+	<!-- CSS -->
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/proyectos.css">
+	<!-- END - CSS -->
+
+</head>
+<body>
+<!-- HEADER -->
+	<header id="cabecera">
+		<!-- LOGO -->
+		<div class="maxContainer">
+			<div class="logo">
+				<a href="index.html" onMouseOver="hoverLogo();" onMouseOut="activeLogo();">
+					<img src="img/logo-ism-design-black.svg" alt="Logo ISM Design" id="logo">
+				</a>
+			</div>
+			<!-- JS - logo animado -->
+			<script src="js/logo-animado.js"></script>
+			<!-- BOTÓN -->
+			<button class="toggle"><i class="fa-solid fa-bars"></i></button>
+			<!-- NAVEGADOR -->
+			<nav class="txt-cuerpo menuContainer flexContainer" id="menu">
+				<ul class="">
+					<li><a href="disenyo-grafico.html">Diseño gráfico</a></li>
+					<li><a class="referencia" href="disenyo-uxui.html">Diseño UX/UI</a></li>
+					<li><a href="disenyo-web.html">Diseño web</a></li>
+					<li><a href="sobre-mi.html">Sobre mí</a></li>
+					<li><a href="contacto.html">Contacto</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+<!-- END - HEADER -->
+<!-- MAIN -->
+	<main class="p-top-5" id="top">
+		<!-- BANNER -->
+		<article id="banner" class="gridBody">
+			<div class="contenedorFullScreen">
+				<picture>
+					<source media="(min-width:992px)" srcset="img/proyectos/gow/banner_hero-desktop.jpg">
+					<source media="(min-width:768px)" srcset="img/proyectos/gow/banner_hero-tablet.jpg">
+					<img src="img/proyectos/gow/banner_hero-mobile.jpg" alt="Banner logo gow" class="fullScreen" title="Banner gow">
+				</picture>
+			</div>
+		</article>
+		<!-- INTRODUCCIÓN -->
+		<article class="width-responsive centerContainer m-top-5 p-top-5 p-bottom-5">
+			<div>
+				<h1 class="txt-titular">gow App</h1>
+			</div>
+			<div class="m-top-3">
+				<p class="txt-cuerpo">Aquí tenemos mi proyecto final del módulo UX/UI realizado en la escuela CEI, en el que tenía que aplicar la metodología <span class="cursiva">design thinking</span> para diseñar desde cero una aplicación.<br class="m-top-3">
+				De aquí nace gow app, una aplicación que pretende mantener la seguridad, la usabilidad y el bienestar de las personas durante eventos multitudinarios, en tiempos de pandemia y restricciones.</p>
+			</div>
+			<div class="m-top-3 flexWrap">
+				<a href="https://www.domestika.org/es/projects/1414829-gow-design-thinking-ux-ui-design" target="blank" class="txt-cuerpo boton">Proyecto</a>
+				<a href="https://www.figma.com/proto/KYwp9wiEpQ4jnNLJT4FveF/gow---Prototipado?page-id=3%3A2&node-id=25%3A10946&viewport=300%2C48%2C0.21&scaling=scale-down&starting-point-node-id=25%3A11180" target="blank" class="txt-cuerpo boton">Figméalo</a>
+			</div>
+		</article>
+		<!-- VIDEO -->
+		<article class="bg-oscuro m-top-5">
+			<div class="width-responsive gridVideo centerContainer ">
+				<div class="flexContainer" id="video">
+					<iframe src="https://player.vimeo.com/video/639329538?h=c658f08a25" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+					<img src="img/proyectos/imaginin/blob-1.png" alt="Elemento decorativo" title="Elemento decorativo">
+				</div>
+				<div class="" id="txt">
+					<p class="txt-cuerpo-white">Aplicando los criterios de diseño UI, con una estructura más enfocada a que sea comprensible y fácil la utilización de gow, esta se adapta a cada evento para ofrecer a sus usuarios la mejor experiencia.</p>
+				</div>
+			</div>
+		</article>
+		<!-- GALERÍA -->
+		<article class="m-top-2 width-100 centerContainer">
+			<div class="galeria">
+				<div class="hidden" id="img-1">
+					<img src="img/proyectos/gow/imagen-1.jpg" alt="planteamiento del design thinking" title="Design thinking">
+				</div>
+				<div class="hidden" id="img-2">
+					<img src="img/proyectos/gow/imagen-2.jpg" alt="Costumer journey gow" title="Animación">
+				</div>
+				<div class="hidden" id="img-3">
+					<img src="img/proyectos/gow/imagen-3.jpg" alt="Sistema de diseño de la app gow" title="Sistema de diseño">
+				</div>
+				<div class="hidden" id="img-4">
+					<img src="img/proyectos/gow/imagen-4.jpg" alt="Prototipado de gow" title="Prototipo">
+				</div>
+			</div>
+		</article>
+	</main>
+<!-- END - MAIN -->
+<!-- FOOTER -->
+	<footer class="m-top-2 p-top-4 bg-oscuro fullContainer">
+		<div class="txt-cuerpo-white margen-90 centerContainer" id="footerMaster">
+			<div class="" id="logo-footer">
+				<img src="img/logo-ism-design-white.svg">
+			</div>
+			<div class="" id="datos-footer">
+				<ul>
+					<li>Iván Sarió Madrigal</li>
+					<li><a href="tel:+34606659255">+34 606 65 92 55</a></li>
+					<li><a href="mailto:ivan.sario.madrigal@gmail.com">ivan.sario.madrigal@gmail.com</a></li>
+				</ul>
+			</div>
+			<div class="margen-60" id="rrss-footer">
+				<ul class="flexContainer centrado-espacio ">
+					<li><a href="https://twitter.com/ivansm95" target="blank"><img src="img/twitter-icon.svg" alt="logotipo de twitter"></a></li>
+					<li><a href="https://vimeo.com/user127143020" target="blank"><img src="img/vimeo-icon.svg" alt="logotipo de vimeo"></a></li>
+					<li><a href="https://www.instagram.com/ivan_saurio/" target="blank"><img src="img/instagram-icon.svg" alt="logotipo de instagram"></a></li>
+				</ul>
+			</div>
+		</div>
+	</footer>
+<!-- END - FOOTER -->
+<!-- JAVASCRIPT -->
+	<script src="js/main.js"></script>
+<!-- JAVASCRIPT -->
+</body>
+</html>

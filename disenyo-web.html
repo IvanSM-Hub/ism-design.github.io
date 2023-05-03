@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Diseño web</title>
+
+	<!-- FUENTES -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;1,300&family=Montserrat:wght@500;700&display=swap" rel="stylesheet">
+	<!-- END - FUENTES -->
+
+	<!-- ICON -->
+	<link rel="icon" type="image/x-icon" href="img/icon/ism-logo.ico">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+	<!-- END - ICON -->
+
+	<!-- CSS -->
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/proyectos.css">
+	<link rel="stylesheet" href="css/disenyo-web.css">
+	<!-- END - CSS -->
+
+</head>
+<body>
+<!-- HEADER -->
+	<header id="cabecera">
+		<!-- LOGO -->
+		<div class="maxContainer">
+			<div class="logo">
+				<a href="index.html" onMouseOver="hoverLogo();" onMouseOut="activeLogo();">
+					<img src="img/logo-ism-design-black.svg" alt="Logo ISM Design" id="logo">
+				</a>
+			</div>
+			<!-- JS - logo animado -->
+			<script src="js/logo-animado.js"></script>
+			<!-- BOTÓN -->
+			<button class="toggle"><i class="fa-solid fa-bars"></i></button>
+			<!-- NAVEGADOR -->
+			<nav class="txt-cuerpo menuContainer flexContainer" id="menu">
+				<ul class="">
+					<li><a href="disenyo-grafico.html">Diseño gráfico</a></li>
+					<li><a href="disenyo-uxui.html">Diseño UX/UI</a></li>
+					<li><a class="referencia" href="#top">Diseño web</a></li>
+					<li><a href="sobre-mi.html">Sobre mí</a></li>
+					<li><a href="contacto.html">Contacto</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+<!-- END - HEADER -->
+<!-- MAIN -->
+	<main class="p-top-5" id="top">
+		<!-- BANNER -->
+		<article id="banner" class="centerContainer ">
+			<div class="">
+				<picture>
+					<source media="(min-width:992px)" srcset="img/web/banner_hero-desktop.jpg">
+					<source media="(min-width:768px)" srcset="img/web/banner_hero-tablet.jpg">
+					<img src="img/web/banner_hero-mobile.jpg" alt="Banner proyecto diseño web" class="" title="Banner proyecto diseño web">
+				</picture>
+			</div>
+		</article>
+		<!-- INTRODUCCIÓN -->
+		<article class="width-responsive centerContainer m-top-4 p-bottom-5">
+			<div>
+				<h1 class="txt-titular">Proyecto: ISM Design</h1>
+			</div>
+			<div class="m-top-3">
+				<p class="txt-cuerpo">Para el proyecto final del módulo de diseño web del CEI: escuela de diseño y marketing, decidí elaborar mi propia web en la que poder enseñar mis proyectos. Además lo presento como mi propio espacio donde mostrar las cosas que me gustan y soy capaz de hacer.</p>
+			</div>
+		</article>
+		<!-- SECCIÓN 1 -->
+		<article class="bg-oscuro m-top-5">
+			<div class="width-responsive gridVideo centerContainer ">
+				<div class="flexContainer img-escalable" id="">
+					<img src="img/web/planteamiento.png" alt="Diferentes capturas de webs que he tomado como referencia" title="Moodboard">
+				</div>
+				<div class="" id="txt">
+					<h2 class="txt-especial">Planteamiento</h2>
+					<p class="txt-cuerpo-white m-top-3">Lo primero que hice fue coger inspiración de otras webs o portfolios para tener una perspectiva de qué era lo que me podía funcionar y qué debía descartar como idea.</p>
+				</div>
+			</div>
+		</article>
+		<!-- SECCIÓN 2 -->
+		<article class="bg-claro m-top-3">
+			<div class="width-responsive seccion-vertical centerContainer ">
+				<div class="flexContainer centerContainer flex-centrado" id="vertical">
+					<img src="img/web/sitemap.png" alt="imágen explicativa del mapa de menús de la web" title="Croquis del Sitemap">
+				</div>
+				<div class="m-top-3" id="txt">
+					<h2 class="txt-especial">Sitemap</h2>
+					<p class="txt-cuerpo m-top-3">A continuación planteé todas las pantallas que iba a necesitar mi web, poniendo en el foco que se mostrara de manera rápida y sencilla cómo se había planteado el proyecto en cuestión.<br class="m-top-3">
+					Tambíen quise catalogar los proyectos en tres ramas:</p>
+					<ul class="txt-cuerpo sangrado-txt">
+						<li>Diseño gráfico</li>
+						<li>Diseño UX/UI</li>
+						<li>Diseño Web</li>
+					</ul>
+				</div>
+			</div>
+		</article>
+		<!-- SECCIÓN 3 -->
+		<article class="bg-gris m-top-5">
+			<div class="width-responsive gridVideo centerContainer ">
+				<div class="flexContainer" id="">
+					<img src="img/web/index.png" alt="imágen explicativa de la estructura de la web" title="Wareframe del index.html">
+				</div>
+				<div class="" id="txt">
+					<h2 class="txt-especial">index.html</h2>
+					<p class="txt-cuerpo m-top-3">Por algo hay que empezar, ¿no?<br class="m-top-3">
+					Lo primero que hice fue el esqueleto de la web que consta de: <span class="cursiva">header, main y footer.</span> Prescindí del elemento <span class="cursiva">aside</span> ya que este no tenía ningún uso ni relevancia a nivel de contenido práctico. A continuación distribuí la web en tres secciones: la bienvenida e introducción de la web, una galería con los proyectos más recientes y, por último, un pequeño apartado sobre mí.</p>
+				</div>
+			</div>
+		</article>
+		<!-- SECCIÓN 4 -->
+		<article class="bg-oscuro p-bottom-5 p-top-5">
+			<div class="width-responsive seccion-vertical centerContainer ">
+				<div class="flexContainer centerContainer flex-centrado" id="vertical">
+					<img src="img/web/proyectos.png" alt="imágen explicativa proyectos" title="Imágen proyectos">
+				</div>
+				<div class="m-top-3" id="txt">
+					<h2 class="txt-especial">Proyectos</h2>
+					<p class="txt-cuerpo-white m-top-3">A la hora de plantear los proyectos decidí ser pragmático y crear una hoja de estilo para todas. De esta manera, permitía a todas las entradas mantener la misma estructura.<br class="m-top-3">
+					Para el diseño lo enfoqué como si de una <span class="cursiva">landing</span> se tratara: con un <span class="cursiva">banner</span> lo más dinámico posible con el método de trasladar la imagen en el centro de su contenedor. De esta manera, el ancho y el alto original se quedan fijos para que así mantenga la máxima calidad de imagen.<br class="m-top-3">
+					Otro de los puntos destacables de estas páginas es la inserción de vídeos en los que se puede ver de manera gráfica el comportamiento del proyecto en vivo.</p>
+				</div>
+			</div>
+		</article>
+		<!-- SECCIÓN 5 -->
+		<article class="bg-claro">
+			<div class="width-responsive gridVideo centerContainer ">
+				<div class="flexContainer" id="">
+					<img src="img/web/categorias.png" alt="imagen explicativa categorias" title="Wareframe categorias">
+				</div>
+				<div class="" id="txt">
+					<h2 class="txt-especial">Categorías</h2>
+					<p class="txt-cuerpo m-top-3">En las categorías quería crear unas tarjetas que representen un <span class="cursiva">card</span> de producto de <span class="cursiva">ecommerce</span> y que a su vez fueran dinámicas teniendo una versión para móviles vertical y para anchos superiores horizontal.</p>
+				</div>
+			</div>
+		</article>
+	</main>
+<!-- END - MAIN -->
+<!-- FOOTER -->
+	<footer class="m-top-2 p-top-4 bg-oscuro fullContainer">
+		<div class="txt-cuerpo-white margen-90 centerContainer" id="footerMaster">
+			<div class="" id="logo-footer">
+				<img src="img/logo-ism-design-white.svg">
+			</div>
+			<div class="" id="datos-footer">
+				<ul>
+					<li>Iván Sarió Madrigal</li>
+					<li><a href="tel:+34606659255">+34 606 65 92 55</a></li>
+					<li><a href="mailto:ivan.sario.madrigal@gmail.com">ivan.sario.madrigal@gmail.com</a></li>
+				</ul>
+			</div>
+			<div class="margen-60" id="rrss-footer">
+				<ul class="flexContainer centrado-espacio ">
+					<li><a href="https://twitter.com/ivansm95" target="blank"><img src="img/twitter-icon.svg" alt="logotipo de twitter"></a></li>
+					<li><a href="https://vimeo.com/user127143020" target="blank"><img src="img/vimeo-icon.svg" alt="logotipo de vimeo"></a></li>
+					<li><a href="https://www.instagram.com/ivan_saurio/" target="blank"><img src="img/instagram-icon.svg" alt="logotipo de instagram"></a></li>
+				</ul>
+			</div>
+		</div>
+	</footer>
+<!-- END - FOOTER -->
+<!-- JAVASCRIPT -->
+	<script src="js/main.js"></script>
+<!-- JAVASCRIPT -->
+</body>
+</html>

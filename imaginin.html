@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Proyecto: Imaginin</title>
+
+	<!-- FUENTES -->
+	<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Montserrat:wght@500;700&display=swap" rel="stylesheet">
+	<!-- END - FUENTES -->
+
+	<!-- ICON -->
+	<link rel="icon" type="image/x-icon" href="img/icon/ism-logo.ico">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<!-- END - ICON -->
+
+	<!-- CSS -->
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/proyectos.css">
+	<!-- END - CSS -->
+
+</head>
+<body>
+<!-- HEADER -->
+	<header id="cabecera">
+		<!-- LOGO -->
+		<div class="maxContainer">
+			<div class="logo">
+				<a href="index.html" onMouseOver="hoverLogo();" onMouseOut="activeLogo();">
+					<img src="img/logo-ism-design-black.svg" alt="Logo ISM Design" id="logo">
+				</a>
+			</div>
+			<!-- JS - logo animado -->
+			<script src="js/logo-animado.js"></script>
+			<!-- BOTÓN -->
+			<button class="toggle"><i class="fa-solid fa-bars"></i></button>
+			<!-- NAVEGADOR -->
+			<nav class="txt-cuerpo menuContainer flexContainer" id="menu">
+				<ul class="">
+					<li><a class="referencia" href="disenyo-grafico.html">Diseño gráfico</a></li>
+					<li><a href="disenyo-uxui.html">Diseño UX/UI</a></li>
+					<li><a href="disenyo-web.html">Diseño web</a></li>
+					<li><a href="sobre-mi.html">Sobre mí</a></li>
+					<li><a href="contacto.html">Contacto</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+<!-- END - HEADER -->
+<!-- MAIN -->
+	<main class="p-top-5" id="top">
+		<!-- BANNER -->
+		<article id="banner" class="gridBody">
+			<div class="contenedorFullScreen">
+				<picture>
+					<source media="(min-width:992px)" srcset="img/proyectos/imaginin/banner_hero-desktop.jpg">
+					<source media="(min-width:768px)" srcset="img/proyectos/imaginin/banner_hero-tablet.jpg">
+					<img src="img/proyectos/imaginin/banner_hero-mobile.jpg" alt="Banner logo imaginin" class="fullScreen" title="Banner imaginin">
+				</picture>
+			</div>
+		</article>
+		<!-- INTRODUCCIÓN -->
+		<article class="width-responsive centerContainer m-top-5 p-top-5 p-bottom-5">
+			<div>
+				<h1 class="txt-titular">imaginin</h1>
+			</div>
+			<div class="m-top-3">
+				<p class="txt-cuerpo">Diseño y animación de logotipo de la marca propia de diseño gráfico, en la que intento plasmar mi filosofía a la hora de abordar proyectos. Es un logo versátil y con varias lecturas en el que se puede leer a la vez "Imagin in" o "I'm again in", utilizando la omisión de la vocal "a" en el logo.</p>
+			</div>
+		</article>
+		<!-- VIDEO -->
+		<article class="bg-oscuro m-top-5">
+			<div class="width-responsive gridVideo centerContainer ">
+				<div class="flexContainer" id="video">
+					<iframe src="https://player.vimeo.com/video/552398325?h=5c761db5b9" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+					<img src="img/proyectos/imaginin/blob-1.png" alt="Elemento decorativo" title="Elemento decorativo">
+				</div>
+				<div class="" id="txt">
+					<p class="txt-cuerpo-white">Utilizando el entorno de trabajo de Adobe casi al completo, siendo Adobe After Effects el centro neurálgico donde van a coexistir todos estos elementos, animé y creé las diferentes lecturas y formas que posee la marca.</p>
+				</div>
+			</div>
+		</article>
+		<!-- GALERÍA -->
+		<article class="m-top-2 width-100 centerContainer">
+			<div class="galeria">
+				<div class="hidden" id="img-1">
+					<img src="img/proyectos/imaginin/imaginin-galeria-2.jpg" alt="Boceto motion graphics imaginin" title="Boceto imaginin">
+				</div>
+				<div class="hidden" id="img-2">
+					<img src="img/proyectos/imaginin/imaginin-galeria-5.jpg" alt="Proceso de animación imaginin" title="Animación">
+				</div>
+				<div class="hidden" id="img-3">
+					<img src="img/proyectos/imaginin/imaginin-galeria-4.jpg" alt="Mockup tarjeta de visita imaginin" title="Tarjeta de visita">
+				</div>
+				<div class="hidden" id="img-4">
+					<img src="img/proyectos/imaginin/imaginin-galeria-3.jpg" alt="imaginin imágen 490" title="imaginin 490">
+				</div>
+			</div>
+		</article>
+	</main>
+<!-- END - MAIN -->
+<!-- FOOTER -->
+	<footer class="m-top-2 p-top-4 bg-oscuro fullContainer">
+		<div class="txt-cuerpo-white margen-90 centerContainer" id="footerMaster">
+			<div class="" id="logo-footer">
+				<img src="img/logo-ism-design-white.svg">
+			</div>
+			<div class="" id="datos-footer">
+				<ul>
+					<li>Iván Sarió Madrigal</li>
+					<li><a href="tel:+34606659255">+34 606 65 92 55</a></li>
+					<li><a href="mailto:ivan.sario.madrigal@gmail.com">ivan.sario.madrigal@gmail.com</a></li>
+				</ul>
+			</div>
+			<div class="margen-60" id="rrss-footer">
+				<ul class="flexContainer centrado-espacio ">
+					<li><a href="https://twitter.com/ivansm95" target="blank"><img src="img/twitter-icon.svg" alt="logotipo de twitter"></a></li>
+					<li><a href="https://vimeo.com/user127143020" target="blank"><img src="img/vimeo-icon.svg" alt="logotipo de vimeo"></a></li>
+					<li><a href="https://www.instagram.com/ivan_saurio/" target="blank"><img src="img/instagram-icon.svg" alt="logotipo de instagram"></a></li>
+				</ul>
+			</div>
+		</div>
+	</footer>
+<!-- END - FOOTER -->
+<!-- JAVASCRIPT -->
+	<script src="js/main.js"></script>
+<!-- JAVASCRIPT -->
+</body>
+</html>
