@@ -1,0 +1,163 @@
+/*IMPORTS - Aquí están linkeadas las fuentes que utilizaré para el diseño de la web*/
+	@import url('https://fonts.googleapis.com/css2?amily=Lato:wght@300;400&family=Montserrat:wght@500;700&display=swap');
+	@import url('css/main.css');
+/*END IMPORTS*/
+
+.centrado {
+	display: flex;
+	flex-flow: column;
+	justify-content: center;
+}
+
+.width-cards {
+	width: 90vw;
+}
+
+.imagen-100 {
+	width: 100%;
+}
+
+.cajaImagen {
+	width: 100%;
+	height: auto;
+	line-height:0;
+}
+
+.cajaTexto {
+	width: 100%;
+}
+
+.imagen-estilo-1 {
+	border-radius: 17px 17px 0px 0px;
+	z-index: -5;
+}
+
+.imagen-estilo-2 {
+	border-radius: 17px 17px 0px 0px;
+	z-index: -5;
+}
+
+.flex-responsive-1 {
+	flex-flow: column;
+}
+
+.flex-responsive-2 {
+	flex-flow: column;
+}
+
+h2 {
+	font-family: var(--font-esp);
+	font-weight: var(--mon-bold);
+	font-weight: 1.5rem;
+}
+
+.border {
+	border: 2px solid var(--color-sec);
+	border-radius: 20px;
+	min-height: 214px;
+	box-shadow: 0px 0px 3px rgba(0, 0, 0, .45);
+}
+
+.padding-in {
+	padding: var(--esp-medio);
+}
+
+.boton {
+	text-decoration: none;
+	text-align: center;
+	color: var(--color-sec);
+	padding: 5px 15px 5px 15px;
+	border: 1px solid var(--color-sec);
+}
+
+
+
+/*=============== MEDIA ==================*/
+
+/*================ START 768 px ================*/
+
+@media screen and (min-width: 768px){
+
+	.contenedorImagenFull {
+		position: relative;
+		display: grid;
+		align-items: center;
+		justify-content: center;
+		height: 100%;
+		width: 100%;
+		margin: 0 auto;
+	}
+
+	.fullImagenScreen {
+		position: absolute;
+		z-index: 0;
+		object-fit: cover;
+		width: 101%;
+		height: 100%;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+	}
+
+	.width-cards {
+		width: 80vw;
+	}
+
+	.imagen-100 {
+		width: ;
+		height: ;
+	}
+
+	.imagen-estilo-1 {
+		border-radius: 17px 0px 0px 17px;
+	}
+
+	.imagen-estilo-2 {
+		border-radius: 0px 17px 17px 0px;
+	}
+
+	.cajaTexto {
+		width: 65%;
+	}
+
+	.cajaImagen {
+		width: 35%;
+		height: auto;
+	}
+
+	.flex-responsive-1 {
+		flex-flow: row wrap;
+	}
+
+	.flex-responsive-2 {
+		flex-flow: row-reverse wrap;
+	}
+
+}/*END - 768px*/
+
+/*================ START 992 px ================*/
+
+@media screen and (min-width: 992px){
+
+	.width-cards {
+		width: 800px;
+	}
+
+	.boton:hover {
+		background-color: var(--color-sec);
+		color: var(--color-pr-cl);
+		box-shadow: 0px 0px 3px rgba(0, 0, 0, .45);
+		transition: all .5s;
+		-webkit-transition: all .5s;
+		-moz-transition: all .5s;
+		-o-transition: all .5s;
+	}
+
+}/*END - 992px*/
+
+/*================ START 1200 px ================*/
+
+@media screen and (min-width: 1200px){
+
+}/*END - 1200px*/
+

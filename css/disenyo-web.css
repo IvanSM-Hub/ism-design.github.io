@@ -1,0 +1,70 @@
+/*IMPORTS - Aquí están linkeadas las fuentes que utilizaré para el diseño de la web*/
+	@import url('https://fonts.googleapis.com/css2?amily=Lato:wght@300;400&family=Montserrat:wght@500;700&display=swap');
+	@import url('css/main.css');
+/*END IMPORTS*/
+
+
+#banner {
+	width: 100%;
+	max-width: 1840px;
+}
+
+#banner img {
+	width: 100%;
+}
+
+#txt h2 {
+	font-size: 1.5rem!important;
+	font-weight: var(--mon-bold)!important;
+}
+
+.seccion-vertical {
+	flex-flow: column;
+}
+
+.flex-centrado {
+	justify-content: center;
+}
+
+.img-escalable {
+	width: 100%;
+}
+
+#vertical {
+	width: 100%;
+}
+
+img {
+	width: 100%;
+}
+
+/*=============== MEDIA ==================*/
+
+/*================ START 768 px ================*/
+
+@media screen and (min-width: 768px){
+
+}/*END - 768px*/
+
+
+/*================ START 992 px ================*/
+
+@media screen and (min-width: 992px){
+
+	#vertical {
+		width: 75%;
+	}
+
+}/*END - 992px*/
+
+
+/*================ START 1200 px ================*/
+
+@media screen and (min-width: 1200px){
+
+	.gridVideo {
+		grid-template-columns: 2fr 1fr!important;
+	}
+
+}/*END - 1200px*/
+

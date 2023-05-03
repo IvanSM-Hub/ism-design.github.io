@@ -1,0 +1,144 @@
+/*IMPORTS - Aquí están linkeadas las fuentes que utilizaré para el diseño de la web*/
+	@import url('https://fonts.googleapis.com/css2?amily=Lato:wght@300;400&family=Montserrat:wght@500;700&display=swap');
+	@import url('css/main.css')
+/*END IMPORTS*/
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+}
+
+#menu ul:nth-child(4) {
+	color: red!important;
+}
+
+/*YO + EL CV*/
+
+#yo-descarga {
+	width: 90vw;
+	flex-flow: column;
+	align-items: center;
+}
+
+#foto {
+	width: 75vw;
+	max-width: 400px;
+}
+
+#foto img {
+	width: 100%;
+	border-radius: 50%;
+	box-shadow: 0px 0px 3px rgba(0, 0, 0, .45);
+}
+
+#txtBoton {
+	margin-top: var(--esp-medio)
+}
+
+section.flexContainer h2 {
+	font-family: var(--font-esp);
+	font-weight: var(--Mon-regular);
+	text-align: center;
+}
+
+#descargarCV {
+	text-align: center;
+}
+
+#descargarCV a {
+	text-decoration: none;
+	color: var(--color-sec);
+	padding: 5px 15px 5px 15px;
+	border: 1px solid var(--color-sec);
+}
+
+/*DESCRIPCIÓN SOBRE MÍ*/
+
+#datos {
+	flex-direction: column;
+	width: 90vw;
+
+}
+
+#titulo-h1 {
+	width: 220px;
+}
+
+#datos p {
+	text-align: justify;
+}
+
+main {
+		min-height: inherit;
+		flex-flow: column;
+		justify-content: center;
+}
+
+
+/*=============== MEDIA ==================*/
+
+/*================ START 768 px ================*/
+@media screen and (min-width: 768px){
+
+	#yo-descarga {
+		width: 90vw;
+		flex-flow: row;
+		align-items: center;
+		justify-content: center;
+		gap: var(--esp-medio);
+	}
+
+	#foto {
+		width: 30vw;
+		max-width: 240px;
+	}
+
+	#txtBoton {
+		display: flex;
+		flex-direction: column;
+	}
+
+	#descargarCV {
+		text-align: left;
+	}
+
+	main {
+		height: 80vh;
+		flex-flow: column;
+		justify-content: center;
+	}
+
+	footer {
+		width: 100%!important;
+	}
+
+
+}/* END 768 px */
+
+/*================ START 992 px ================*/
+@media screen and (min-width: 992px){
+
+	#descargarCV a:hover {
+		background-color: var(--color-sec);
+		color: var(--color-pr-cl);
+		box-shadow: 0px 0px 3px rgba(0, 0, 0, .45);
+		transition: all .5s;
+		-webkit-transition: all .5s;
+		-moz-transition: all .5s;
+		-o-transition: all .5s;
+	}
+
+}/* END 992 px */
+
+/*================ START 1200 px ================*/
+@media screen and (min-width: 1200px){
+
+	#datos {
+		max-width: 1000px;
+	}
+
+}/* END 1200 px */

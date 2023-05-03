@@ -1,0 +1,127 @@
+/*IMPORTS - Aquí están linkeadas las fuentes que utilizaré para el diseño de la web*/
+	@import url('https://fonts.googleapis.com/css2?amily=Lato:wght@300;400&family=Montserrat:wght@500;700&display=swap');
+	@import url('css/main.css')
+/*END IMPORTS*/
+{}
+
+.titular {
+	font-family: var(--font-esp);
+	font-weight: 700;
+	color: var(--color-pr-os);
+	font-size: 1.5rem;
+}
+
+#texto {
+	flex-flow: column;
+	width: 90vw;
+}
+
+#texto > div {
+	width: fit-content;
+}
+
+#sitios-contacto {
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+}
+
+#sitios-contacto > div {
+	font-weight: var(--lato-bold)!important;
+	margin-bottom: var(--esp-medio);
+}
+
+#sitios-contacto div a {
+	text-decoration: none;
+	color: var(--color-pr-os);
+}
+
+#sitios-contacto div a picture {
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+}
+
+#sitios-contacto div a picture img {
+	width: 30px;
+}
+
+main {
+		min-height: inherit;
+		flex-flow: column;
+		justify-content: center;
+}
+
+/*=============== MEDIA ==================*/
+
+/*================ START 768 px ================*/
+
+@media screen and (min-width: 768px){
+
+	main {
+		height: 80vh;
+		flex-flow: column;
+		justify-content: center;
+	}
+
+	#sitios-contacto {
+		display: grid;
+		grid-template-rows: repeat(2, 1fr);
+		grid-template-columns: repeat(2, 1fr);
+		gap: var(--esp-medio);
+
+		width: 50%;
+	}
+
+	#sitios-contacto > div {
+		margin-bottom: inherit;
+	}
+
+	footer {
+		width: 100%!important;
+	}
+
+}/*END 768*/
+
+/*================ START 992 px ================*/
+
+@media screen and (min-width: 992px){
+
+	#sitios-contacto {
+		display: grid;
+		grid-template-rows: repeat(1, 1fr);
+		grid-template-columns: repeat(4, 1fr);
+		gap: var(--esp-medio);
+
+		width: 90vw;
+	}
+
+	#sitios-contacto div a:hover {
+		color: var(--color-sec);
+	}
+
+	footer {
+		
+	}
+
+}/*END 992*/
+
+/*================ START 1200 px ================*/
+
+@media screen and (min-width: 1200px){
+
+	#texto {
+		width: 1000px;
+	}
+
+	#sitios-contacto {
+		display: grid;
+		grid-template-rows: repeat(1, 1fr);
+		grid-template-columns: repeat(4, 1fr);
+		gap: var(--esp-medio);
+
+		width: 1000px;
+	}
+
+}/*END 1200*/
+
